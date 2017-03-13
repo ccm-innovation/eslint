@@ -1,0 +1,10 @@
+{
+  "extends": "index.js",
+  "globals": {
+    "document": true,
+    "window": true,
+    "globalStaticResourcePath": true,
+    "userInfo": true,
+  },
+  "rules": {}
+}

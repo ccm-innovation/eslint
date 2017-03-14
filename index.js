@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["airbnb"].map(require.resolve),
+  extends: ["eslint-config-airbnb"].map(require.resolve),
   env: {
     "browser": "true",
     "node": "true"

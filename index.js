@@ -16,7 +16,6 @@ module.exports = {
     "no-restricted-syntax": 0,
     "no-underscore-dangle": 0,
     "jsx-a11y/label-has-for": 0,
-    "react/jsx-boolean-value": 0,
     "react/forbid-prop-types": [1, { "type": ["object"] }],
     "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
   },

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-medishare",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NPE linting rules",
   "main": "index.js",
   "scripts": {

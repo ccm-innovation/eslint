@@ -1,19 +1,21 @@
 module.exports = {
   extends: ["eslint-config-airbnb"].map(require.resolve),
   env: {
-    browser: true,
-    node: true,
-    describe: true,
-    xdescribe: true,
-    context: true,
-    xcontext: true,
-    it: true,
-    xit: true,
-    before: true,
-    beforeEach: true,
-    after: true,
-    afterEach: true,
-    exit: true
+    "browser": "true",
+    "node": "true"
+  },
+  globals: {
+    "describe": "true",
+    "xdescribe": "true",
+    "context": "true",
+    "xcontext": "true",
+    "it": "true",
+    "xit": "true",
+    "before": "true",
+    "beforeEach": "true",
+    "after": "true",
+    "afterEach": "true",
+    "exit": "true"
   },
   rules: {
     "import/no-extraneous-dependencies": 1,

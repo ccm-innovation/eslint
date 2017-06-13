@@ -2,7 +2,7 @@
 
 Instructions for adding Medi-Share lint standards to a project:
 
-```npm install --save-dev eslint-config-medishare eslint lint-staged pre-commit```
+```npm install --save-dev eslint-config-medishare eslint@^3.0.0 lint-staged@^3.0.0 pre-commit@^1.0.0```
 
 Add these objects to the package.json:
 
